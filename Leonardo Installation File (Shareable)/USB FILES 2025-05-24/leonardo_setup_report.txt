@@ -1,0 +1,40 @@
+=================================================================
+                LEONARDO AI USB - INSTALLATION REPORT
+=================================================================
+
+Created:         2025-05-24 14:55:29
+Created on:      Linux 6.11.0-26-generic
+USB Label:       LEONARDO
+Script Version:  5.0.0
+
+-----------------------------------------------------------------
+                      INSTALLATION DETAILS
+-----------------------------------------------------------------
+Operating Systems: linux,mac,win
+Models Installed:  phi3:mini
+Total Model Size:  2.30 GB
+
+-----------------------------------------------------------------
+                         QUICK START
+-----------------------------------------------------------------
+1. Plug this USB drive into a computer with one of these OS: linux,mac,win
+2. Run the appropriate launcher for your system:
+   - Linux:   ./leonardo.sh
+   - macOS:   ./leonardo.command (double-click in Finder)
+   - Windows: leonardo.bat (double-click in Explorer)
+
+3. Wait for Ollama to start - a web browser should open automatically
+4. If browser doesn't open, manually navigate to:
+   http://localhost:11434/
+
+-----------------------------------------------------------------
+                       TROUBLESHOOTING
+-----------------------------------------------------------------
+- If launchers don't work, check file permissions
+- On Linux/Mac, you may need to run: chmod +x leonardo.sh leonardo.command
+- For security verification, check the checksums.sha256.txt file
+- See security_readme.txt for additional security information
+
+For help, visit: https://github.com/ollama/ollama
+
+Timestamp: Sat May 24 02:55:29 PM EDT 2025

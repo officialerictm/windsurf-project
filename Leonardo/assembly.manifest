@@ -1,0 +1,29 @@
+# Leonardo AI USB Maker - Assembly Manifest
+# This file controls the order in which components are assembled
+# Format: path/to/component.sh|optional_flags
+
+# Core components
+00_core/header.sh
+00_core/config.sh
+00_core/colors.sh
+
+# Utility functions
+01_utils/logging.sh
+01_utils/system.sh
+
+# UI components
+02_ui/basic.sh
+02_ui/interactive.sh
+02_ui/progress.sh
+02_ui/goodbye.sh
+
+# Filesystem operations
+03_filesystem/device.sh
+03_filesystem/operations.sh
+
+# Network operations
+04_network/download.sh
+04_network/checksum.sh
+
+# Main application logic
+main.sh

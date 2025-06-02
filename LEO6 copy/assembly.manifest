@@ -1,0 +1,51 @@
+# Leonardo AI Universal - Assembly Manifest
+# This file controls the order in which components are assembled
+# Format: path/to/component.sh|optional_flags
+
+# Core components
+00_core/header.sh
+00_core/termfix.sh
+00_core/config.sh
+00_core/colors.sh
+00_core/logging.sh
+
+# Utility functions
+01_utils/system.sh
+01_utils/validation.sh
+
+# UI components
+02_ui/basic.sh
+02_ui/interactive.sh
+02_ui/progress.sh
+02_ui/warnings.sh
+02_ui/goodbye.sh
+
+# Filesystem operations
+03_filesystem/device.sh
+03_filesystem/operations.sh
+03_filesystem/health.sh
+
+# Network operations
+04_network/download.sh
+04_network/checksum.sh
+04_network/api.sh
+
+# Model management
+05_models/registry.sh
+05_models/installer.sh
+05_models/import.sh
+05_models/verification.sh
+
+# Deployment operations
+06_deployment/usb.sh
+06_deployment/local.sh
+06_deployment/cloud.sh
+06_deployment/installer.sh
+
+# Main application components
+07_main/ui_utils.sh
+07_main/operations.sh
+07_main/main.sh
+
+# Footer (ensures main function is called at the end)
+00_core/footer.sh
